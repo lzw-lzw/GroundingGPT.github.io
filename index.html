@@ -1,1 +1,243 @@
-<h5>hi</h5>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
+
+	<title>LEGO</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1091.0" data-gr-ext-installed="">
+
+
+<div class="container" >
+<header role="banner">
+</header>
+<main role="main">
+<article itemscope itemtype="https://schema.org/BlogPosting">
+
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <div class="column has-text-centered">
+    <h1 class="title is-1 publication-title"> <img id="teaser" width="10%" src="images/logo.png"> <b>LEGO:</b>  </h1>
+    <h2 class="title is-3 publication-title"> Language Enhanced Multi-modal Grounding Model </h2>
+    <!-- <h2 class="title is-3 publication-title">  </h3> -->
+    </div>
+    <!-- <br> -->
+    <div class="is-size-5">
+        <span class="author-block">
+          <h4 style="text-align: center;"><b>Authors: </b>Zhaowei Li</h4>
+    </div>
+
+    <div class="is-size-5 publication-authors">
+        <span class="author-block"><h4 style="text-align: center;"><b style="color:#d76100; font-weight:normal">&#x25B6 </b>ByteDance Inc</h4></span>
+    </div>
+
+
+    <div class="column has-text-centered">
+        <span class="link-block">
+            <a href="https://github.com/lzw-lzw/LEGO" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="fab fa-github"></i>
+            </span>
+            <span>Github</span>
+            </a>
+        </span>
+
+        <span class="link-block">
+            <a href="https://github.com/lzw-lzw/LEGO" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="ai ai-arxiv"></i>
+            </span>
+            <span>Paper</span>
+            </a>
+        </span>
+
+        <span class="link-block">
+            <a href="https://github.com/lzw-lzw/LEGO" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="far fa-images"></i>
+            </span>
+            <span>Demo</span>
+            </a>
+        </span>
+        <span class="link-block">
+            <a href="https://github.com/lzw-lzw/LEGO" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="fas fa-database"></i>
+            </span>
+            <span>Dataset</span>
+            </a>
+        </span>
+
+    </div>
+</div>
+
+
+<!-- <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths">
+          <h2 class="title is-3">Demos</h2>
+        </div>
+      </div>
+
+    <div class="text-center">
+        <video width="90%" controls="">
+            <source src="mp4/bbq.mp4" type="video/mp4"> 
+        </video>
+    </div>
+    <br>
+    <br>
+    <div class="text-center">
+        <video width="90%" controls="">
+            <source src="mp4/dorm.mp4" type="video/mp4"> 
+        </video>
+    </div>
+</div> -->
+	
+
+
+
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths">
+          <h2 class="title is-3">Overview</h2>
+          <!-- <div class="content has-text-justified">
+            <li><b>Cross-modal Instruction-Following</b>
+            <li><b>Speech Dialogue</b>
+          </div> -->
+        </div>
+      </div>
+	
+    <p style="font-size: 18px;">
+      LEGO is an end-to-end multimodal grounding model that accuratel comprehends inputs and possesses robust grounding capabilities across multi modalities,including images, audios, and videos. To address the issue of limited data, we construct a diverse and high-quality multimodal training dataset. This dataset encompasses a rich collection of multimodal data enriched with spatial and temporal information, thereby serving as a valuable resource to foster further advancements in this field. Extensive experimental evaluations validate the effectiveness of the LEGO model in understanding and grounding tasks across various modalities.
+    </p>
+	
+    <!-- <div class="text-center">
+        <img id="teaser" width="70%" src="images/alldemo.png">     
+    </div> -->
+    <br>
+    <br>
+    <div class="text-center">
+        <img id="teaser" width="70%" src="images/architecture.png">     
+    </div>
+</div>
+
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <h3>Multi-modal Understanding:</h3>
+		<div class="table-responsive pt-3">
+			<table class="table table-hover pt-2">
+			<thead>
+			<tr>
+            <th style="text-align: center">Instructions</th>
+			<th style="text-align: center">Inputs</th>
+            <th style="text-align: center">outputs</th>
+			</tr>
+			</thead>
+			<tbody>
+            <td style="text-align: center;vertical-align:middle;width: 800px">What are the things I should be cautious about when I visit here?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><img src="examples/009.jpg"></td>
+			<td style="text-align: center;vertical-align:middle;width: 800px">When visiting this picturesque location with a wooden dock overlooking a calm lake, there are a few things to be cautious about. First, the wooden dock may be slippery, especially if it is wet or covered in algae, so it is essential to be careful while walking on it. Second, the lake's calmness may give a false sense of security, so it is crucial to be aware of the water depth and any potential hazards, such as submerged rocks or sudden changes in water currents. Lastly, be mindful of the surroundings, as there may be other visitors or wildlife in the area, and respect their space to ensure a safe and enjoyable experience for everyone.</td>
+            </tr>
+
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Can you explain this meme in detail?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><img src="examples/014.jpg"></td>
+			<td style="text-align: center;vertical-align:middle;width: 800px">The meme features a close-up of a piece of fried chicken, which has been cut into the shape of a map. The chicken is placed on a tray, and the map is made up of various pieces of chicken, showcasing different countries and continents. The chicken is spread across the tray, with some pieces placed in the center and others surrounding it. The meme is a creative and playful representation of the world, using a popular food item to create a unique and amusing visual.</td>
+            </tr>
+
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Write a concise summary of the video clip.</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><video controls="controls" style="width: 400px;"><source src="examples/city.mp4" type="video/mp4">Your browser does not support the video tag.</video></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">In this captivating video, a drone takes us on a mesmerizing journey over the city of Florence, Italy. The aerial footage showcases the breathtaking beauty of the city, with its iconic landmarks and stunning architecture. As the drone soars through the sky, we are treated to a bird's-eye view of the city's famous bridges, including the Ponte Vecchio and the Ponte Santa Trinita.</td>
+            </tr>
+
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Describe this video please.</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><video controls="controls" style="width: 400px;"><source src="examples/girl reading.mp4" type="video/mp4">Your browser does not support the video tag.</video></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">In this video, a young woman is seen sitting on a hay bale in a field. She is wearing a black shirt and there is a backpack next to her. She is reading a book and seems to be enjoying her time in the field, possibly taking a break from her daily routine. The hay bale provides a comfortable seating area for her, allowing her to relax and appreciate the surroundings. The field is filled with tall grass, creating a serene and peaceful atmosphere. Overall, the video captures a simple yet beautiful moment of a young woman finding solace in the peacefulness of a field.</td>
+            </tr>
+
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Provide a clear and focused description of the audio's content.</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="examples/rain.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">This audio captures the sound of rain falling steadily, creating a soothing ambiance. The raindrops can be heard hitting the ground, possibly a roof, and splashing into a puddle. The consistent and gentle nature of the rainfall creates a peaceful and calming atmosphere.</td>
+            </tr>
+
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Describe the main elements and features of the audio.</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="examples/machine.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">This audio captures the distinct sound of a saw being used to cut through a piece of wood. The saw is being operated at a steady pace, creating a rhythmic pattern of cutting and sawing. The sound of the saw in action is prominent, indicating the woodworking process in progress.</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <h3>Multi-modal Grounding:</h3>
+		<div class="table-responsive pt-3">
+			<table class="table table-hover pt-2">
+			<thead>
+			<tr>
+            <th style="text-align: center">Instructions</th>
+			<th style="text-align: center">Inputs</th>
+            <th style="text-align: center">outputs</th>
+            <th style="text-align: center">results</th>
+			</tr>
+			</thead>
+			<tbody>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Please describe the image and include the object positions.</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><img src="examples/3dog.jpg"></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><span style="color: red;">Three dogs</span> are sitting on the <span style="color: green;">floor</span> in front of <span style="color: blue;">three plates of food</span>. They seem to be begging for food, possibly from their owners.</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><img src="examples/3dog_result.png"></td>
+            </tr>
+
+            <td style="text-align: center;vertical-align:middle;width: 800px">Please describe the image and include the object positions in [x0, y0, x1, y1] format.</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><img src="examples/soccer.jpg"></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">In the image, <span style="color: blue;">two soccer players</span> are seen on a soccer field. One player is wearing <span style="color: red;">a black and white uniform</span>, while the other is wearing <span style="color: rgb(212, 212, 50);">a red and white uniform</span>. They are both chasing after a <span style="color: green;">yellow ball</span>.</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><img src="examples/soccer_result.jpg"></td>
+            </tr>
+
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Please give me the timestamp when the dog turn around to look at the camera?<br><br><br>When does the dog use its paws to push off and ride the skateboard?</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><video controls="controls" style="width: 300px;"><source src="examples/dog.mp4" type="video/mp4">Your browser does not support the video tag.</video></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">The dog turns around to look at the camera in <span style="color: red;">{0.09,0.15}</span><br><br><br>The dog uses its paws to push off and ride the skateboard in <span style="color: red;">{0.42,0.58}</span>.</span></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">——</td>
+            </tr>
+
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">When did the baby push up the glasses and stretch her body in the video?<br><br><br>When does the girl turn over the book?</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><video controls="controls" style="width: 300px;"><source src="examples/baby.mp4" type="video/mp4">Your browser does not support the video tag.</video></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">The baby push up the glasses and stretch her body in <span style="color: red;">{0.16, 0.36}</span>.<br><br><br>The girl turns over the book in <span style="color: red;">{0.39,0.45}</span>.</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">——</td>
+            </tr>
+
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px">Where is the sound's point of emission in this image? Include the object positions in [x0, y0, x1, y1] format.</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><img src="examples/dog.jpeg"><br><br><audio controls="controls" style="width: 140px;"><source src="examples/dog.flac" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px">In the image, <span style="color: red;">a dog</span> is running through <span style="color: green;">a grassy field</span>. The dog is running with its <span style="color: blue;">mouth open</span>, creating a sound of running and barking. The scene is set in a park or a field, with <span style="color: rgb(212, 212, 50);">trees</span> in the background.</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><img src="examples/dog_result.png"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+	
