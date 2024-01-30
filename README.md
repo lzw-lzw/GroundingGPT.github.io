@@ -1,1 +1,1 @@
-# Grounding.github.io
+# GroundingGPT.github.io
